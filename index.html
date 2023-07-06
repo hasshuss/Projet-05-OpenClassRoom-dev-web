@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preload"
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-		as="font">
+		as="stylesheet">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
   <meta name="description" content="Photographe professionelle sur Bordeaux. Tarifs, Informations." />
@@ -85,7 +85,7 @@
                 ./assets/imagesmobile/slider/nicholas-green-nPz8akkUmDI-unsplash.webp  767w,
                 ./assets/images2/slider/nicholas-green-nPz8akkUmDI-unsplash.webp      1280w
               " sizes="(max-width: 767px) 767px,
-              1280px" alt="Image" class="d-block w-100" alt="Photo Nicholas Green" width="1900" height="879"
+              1280px"  class="d-block w-100" alt="Photo Nicholas Green" width="1900" height="879"
             style="max-width: 100%; height: auto;" />
 
         </div>
@@ -94,7 +94,7 @@
           ./assets/imagesmobile/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp  767w,
           ./assets/images2/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp      1280w
         " sizes="(max-width: 767px) 767px ,
-        1280px" alt="Image" class="d-block w-100" alt="Photo Ryoji Iwata" width="1900" height="879"
+        1280px"  class="d-block w-100" alt="Photo Ryoji Iwata" width="1900" height="879"
             style="max-width: 100%; height: auto;" />
         </div>
         <div class="carousel-item">
@@ -274,10 +274,10 @@
           N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
         </p>
         <form action="/lol" method="post">
-          <label>Nom <input type="text" name="nom" id="nom" /></label>
-          <label>Email
+          <label for="name">Nom <input type="text" name="nom" id="nom" /></label>
+          <label for="email">Email
             <input type="email" name="email" id="email" autocomplete="off" /></label>
-          <label>Message
+          <label for="input">Message
             <textarea name="message" id="message" cols="30" rows="10"></textarea>
           </label>
           <input type="submit" value="Envoyer" />
